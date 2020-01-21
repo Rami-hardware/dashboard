@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Tables </title>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="row right">
+        <div class="col-xs- col-sm-0 col-md-0 col-lg-0 aside">
+            <h3>MyOwnDB</h3>
+            <hr>
+            <a href="home.html" class="linksInSide">Dashboard</a>
+            <hr>
+            <h4>options</h4>
+            <a href="chart.html" class="linksInSide">chars</a>
+            <a href="tables.html" class="linksInSide">tables</a>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-items">
+                            <input class="search" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-co" type="submit">Search</button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">messages</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Killx51
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">edit profile</a>
+                                <a class="dropdown-item" href="#">contact with support</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">sign out</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="text-muted">tables</h1>
+            <p class="text-muted">DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the official DataTables documentation.</p>
+
+            <div class="card">
+                <h5 class="card-header text-muted">Example of tables</h5>
+                <div class="card-body">
+                    <p class="text-muted">show
+                        <select>
+                            <option>5</option>
+                            <option>10</option>
+                            <option>15</option>
+                        </select>
+                        entries
+                    </p>
+                    <p class="searchT">search
+                        <input type="search" placeholder="search for entry">
+                    </p>
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="card-footer text-muted">
+                        <p>Showing 1 to 5 of 30 entries</p>
+                        <div class="btn-group btn-group-toggle searchH" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                                <input type="radio" name="options" id="option1"> previous
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="options" id="option2" checked> 1
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="options" id="option3"> 2
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="options" id="option3"> 3
+                            </label>
+                            <label class="btn btn-secondary">
+                                <input type="radio" name="options" id="option3"> next
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/actions.js"></script>
+</body></html>

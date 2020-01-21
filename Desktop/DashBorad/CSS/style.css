@@ -1,0 +1,28 @@
+:root {
+    --main-color-bg: #4E74E0;
+    --main-color-text: #cccccc;
+    --main-color-hover: #FFFF;
+    --box-sh-color: #5a5c69;
+}
+.bg{
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    
+}
+.mainA{
+    color: white;
+    display: block;
+    margin-top: 20px
+}
+.searchH{
+    margin-left: 1261px;
+    margin-top: -70px;
+}
+.searchT{
+     margin-left: 1491px;
+     margin-top: -45px;
+}
+.down{
+    margin-top: 20px;
+}

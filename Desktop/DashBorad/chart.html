@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> chart </title>
+    <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" type="text/css">
+</head>
+
+<body>
+    <div class="row right">
+        <div class="col-xs- col-sm-0 col-md-0 col-lg-0 aside">
+            <h3>MyOwnDB</h3>
+            <hr>
+            <a href="home.html" class="linksInSide">Dashboard</a>
+            <hr>
+            <h4>options</h4>
+            <a href="chart.html" class="linksInSide">chars</a>
+            <a href="tables.html" class="linksInSide">tables</a>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-items">
+                            <input class="search" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-co" type="submit">Search</button>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">messages</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Killx51
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">edit profile</a>
+                                <a class="dropdown-item" href="#">contact with support</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">sign out</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <h1 class="text-muted">tables</h1>
+            <p class="text-muted down">DataTables is a third party plugin that is used to generate the demo table below. For more information about DataTables, please visit the official DataTables documentation.</p>
+
+            <div class="row down">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Daily static
+                        </div>
+                        <div class="card-body">
+                            <div id="chartContainer" style="height: 600px; width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <!--overview-->
+                    <!--revenue-->
+
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-header">
+                                Daily static
+                            </div>
+                            <div class="card-body">
+                                <canvas id="myCharts" width="50px" height="50px"></canvas>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row down">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Daily static
+                        </div>
+                        <div class="card-body">
+                            <div id="piechart"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Daily static
+                        </div>
+                        <div class="card-body">
+                            <canvas id="myChart" width="150" height="150"></canvas>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <script src="JS/actions.js"></script>
+
+</body>
+
+</html>
